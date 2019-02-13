@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        String name = JOptionPane.showInputDialog(null, "Please enter your name");
+        String name = JOptionPane.showInputDialog(null, "Please enter your student number");
         JOptionPane.showMessageDialog(null,"Hello " + name + "!");
     }
 }
